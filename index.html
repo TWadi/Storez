@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ar-TN" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storez | ملابس للحياة اليومية</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="main-header">
+            <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+            <div class="logo-container">
+                <a href="#" style="display: flex; align-items: center; text-decoration: none; color: inherit;">
+                    <img src="logo.jpg" alt="Storez Logo">
+                    <span class="store-name">Storez</span>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">نساء</a></li>
+                <li><a href="#">صغار</a></li>
+            </ul>
+            <div class="header-icons">
+                <button class="icon-btn"><i class="fas fa-search"></i></button>
+                <button class="icon-btn"><i class="far fa-user"></i></button>
+                <button class="icon-btn">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count">0</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero-carousel">
+            <!-- Slides injected via JS or static fallbacks -->
+            <div class="hero-slide active">
+                <img src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?q=80&w=2000&auto=format&fit=crop"
+                    alt="Spring Collection">
+                <div class="hero-content">
+                    <h1>كوليكسيون الشتاء</h1>
+                    <p>جديد الموسم وصل.</p>
+                    <button class="action-btn">اكتشف تو</button>
+                </div>
+            </div>
+            <div class="hero-slide">
+                <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=2000&auto=format&fit=crop"
+                    alt="Urban Life">
+                <div class="hero-content">
+                    <h1>القطعة اللي تلوّج عليها تلقاها عندنا.</h1>
+                    <button class="action-btn">اكتشف</button>
+                </div>
+            </div>
+            <div class="hero-slide">
+                <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=2000&auto=format&fit=crop"
+                    alt="Minimalist">
+                <div class="hero-content">
+                    <h1>زين البساطة</h1>
+                    <p>البساطة هي الكل.</p>
+                    <button class="action-btn">شوف الستيل</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories -->
+        <section class="container">
+            <h2 class="section-title">اشري بالكاتيغوري</h2>
+            <div class="category-grid" id="category-grid">
+                <!-- Categories injected via JS -->
+            </div>
+        </section>
+
+        <!-- Featured Products -->
+        <section class="container">
+            <h2 class="section-title">الجديد</h2>
+            <div class="product-grid" id="product-grid">
+                <!-- Products injected via JS -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h4>تابعنا على السوشيال ميديا</h4>
+                <ul>
+                    <li><i class="fab fa-instagram"></i> أنستغرام</li>
+                    <li><i class="fab fa-facebook"></i> فايسبوك</li>
+                    <li><i class="fab fa-twitter"></i> تويتر</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
